@@ -1,0 +1,38 @@
+*.cache
+*.log
+project/target/*
+project/project/*
+target/*
+tmp
+*.history
+/out
+/.classpath
+/.project
+/RUNNING_PID
+/.settings
+/bin/
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
