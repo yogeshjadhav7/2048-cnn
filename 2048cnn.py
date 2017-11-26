@@ -98,7 +98,6 @@ def train_neural_network(x):
                     break
 
                 epoch_y = np.argmax(epoch_y, axis=1)
-
                 _, c = sess.run([optimizer, cost], feed_dict={x: epoch_x, y: epoch_y})
                 epoch_loss += c
                 batch_counter += 1

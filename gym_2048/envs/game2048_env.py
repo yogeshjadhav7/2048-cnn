@@ -79,7 +79,6 @@ class Game2048Env(gym.Env):
         self.score = 0
         self.moves = 0
         self.rewards = 0
-
         logging.debug("Adding tiles")
         self.add_tile()
         self.add_tile()

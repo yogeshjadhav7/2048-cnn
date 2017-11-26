@@ -82,5 +82,4 @@ def predict(data):
     with tf.Session() as sess:
         sess.run(tf.global_variables_initializer())
         model_handler.restore_model(saver_object=saver, session=sess, log=False)
-
         return sess.run([prediction], feed_dict={x: data})

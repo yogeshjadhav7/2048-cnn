@@ -54,7 +54,6 @@ while current_game <= num_of_games:
             env.render()
             env.reset()
             has_game_ended = True
-
             # Record highest scores
             scores.append((reward, num_of_moves, np.max(observation)))
             break
